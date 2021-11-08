@@ -21,7 +21,7 @@ public class StringSubscription implements Flow.Subscription {
 
     public void publish(String text) {
         executor.execute(() -> {
-            subscriber.onNext(text);
+            this.subscriber.onNext(text);
         });
     }
 }
