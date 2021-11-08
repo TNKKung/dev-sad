@@ -4,5 +4,5 @@ package edu.parinya.softarchdesign.behavior2;
 import java.util.List;
 
 public interface SortStrategy {
-    void customSort(List<Person> people);
+    public void customSort(List<Person> people);
 }
